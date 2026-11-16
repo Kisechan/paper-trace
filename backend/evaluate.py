@@ -43,6 +43,11 @@ async def run(args):
             rejection_accuracy=sum(r['refused'] for r in negative)/len(negative),
             answerable_acceptance=sum(not r['refused'] for r in positive)/len(positive),
             mean_seconds=sum(r['seconds'] for r in group)/len(group))
+        judged=[r for r in group if 'judge' in r]
+        if judged:
+            summary[mode]['judge_count']=len(judged)
+            summary[mode]['judge_correct']=sum(r['judge'].get('correct') is True for r in judged)
+            summary[mode]['judge_grounded']=sum(r['judge'].get('grounded') is True for r in judged)
     output=dict(summary=summary,results=results,notes='Page-level recall proxy. Vector cosine and rerank scores use independent scales; calibrate separate thresholds for fair rejection comparisons.',threshold=settings.relevance_threshold)
     Path(args.output).write_text(json.dumps(output,ensure_ascii=False,indent=2))
     print(json.dumps(summary,indent=2))

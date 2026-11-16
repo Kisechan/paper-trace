@@ -1,0 +1,770 @@
+{
+  "summary": {
+    "vector": {
+      "page_hit_at_5": 1.0,
+      "rejection_accuracy": 0.0,
+      "answerable_acceptance": 1.0,
+      "mean_seconds": 0.14128702000074556
+    },
+    "hybrid": {
+      "page_hit_at_5": 1.0,
+      "rejection_accuracy": 1.0,
+      "answerable_acceptance": 0.9,
+      "mean_seconds": 0.33506401832040866
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        2,
+        1,
+        14,
+        15,
+        15
+      ],
+      "seconds": 0.1968522910028696
+    },
+    {
+      "id": 1,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": true,
+      "hit": true,
+      "pages": [
+        12,
+        2,
+        1,
+        14,
+        14
+      ],
+      "seconds": 0.28753625000535976
+    },
+    {
+      "id": 2,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        1,
+        8,
+        8
+      ],
+      "seconds": 0.10204116700333543
+    },
+    {
+      "id": 2,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        1,
+        8,
+        10
+      ],
+      "seconds": 0.3419173750007758
+    },
+    {
+      "id": 3,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        1,
+        8,
+        8
+      ],
+      "seconds": 0.1351543750060955
+    },
+    {
+      "id": 3,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        1,
+        8,
+        8,
+        8
+      ],
+      "seconds": 0.35850558399397414
+    },
+    {
+      "id": 4,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        8,
+        1,
+        7
+      ],
+      "seconds": 0.09182820899877697
+    },
+    {
+      "id": 4,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        8,
+        2,
+        1
+      ],
+      "seconds": 0.3177272500033723
+    },
+    {
+      "id": 5,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        3,
+        5,
+        5,
+        6
+      ],
+      "seconds": 0.11762320800335146
+    },
+    {
+      "id": 5,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        3,
+        5,
+        13,
+        5
+      ],
+      "seconds": 0.31878737499937415
+    },
+    {
+      "id": 6,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        8,
+        3,
+        5
+      ],
+      "seconds": 0.15162208300898783
+    },
+    {
+      "id": 6,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        7,
+        9,
+        3
+      ],
+      "seconds": 0.3002807079901686
+    },
+    {
+      "id": 7,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        5,
+        5,
+        4
+      ],
+      "seconds": 0.16094625000550877
+    },
+    {
+      "id": 7,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        9,
+        14,
+        4
+      ],
+      "seconds": 0.2902792090026196
+    },
+    {
+      "id": 8,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        9,
+        1,
+        5
+      ],
+      "seconds": 0.12849799999094103
+    },
+    {
+      "id": 8,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        9,
+        14,
+        15,
+        4
+      ],
+      "seconds": 0.330239500006428
+    },
+    {
+      "id": 9,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "seconds": 0.09950754200690426
+    },
+    {
+      "id": 9,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        4,
+        4,
+        4,
+        4,
+        9
+      ],
+      "seconds": 0.2964149999897927
+    },
+    {
+      "id": 10,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        5,
+        3,
+        6,
+        5
+      ],
+      "seconds": 0.11948370799655095
+    },
+    {
+      "id": 10,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        5,
+        3,
+        5,
+        5
+      ],
+      "seconds": 0.30329962499672547
+    },
+    {
+      "id": 11,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        4,
+        3,
+        15
+      ],
+      "seconds": 0.09806716699677054
+    },
+    {
+      "id": 11,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        4,
+        3,
+        5,
+        2
+      ],
+      "seconds": 0.2889663749956526
+    },
+    {
+      "id": 12,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        3,
+        6,
+        5
+      ],
+      "seconds": 0.13986837500124238
+    },
+    {
+      "id": 12,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": true,
+      "hit": true,
+      "pages": [
+        3,
+        5,
+        4,
+        5,
+        3
+      ],
+      "seconds": 0.2927479580102954
+    },
+    {
+      "id": 13,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        6,
+        6,
+        6,
+        3
+      ],
+      "seconds": 0.13301866600522771
+    },
+    {
+      "id": 13,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        6,
+        8,
+        3,
+        6
+      ],
+      "seconds": 0.3420110000006389
+    },
+    {
+      "id": 14,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        4,
+        4,
+        15
+      ],
+      "seconds": 0.11451933300122619
+    },
+    {
+      "id": 14,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        4,
+        11,
+        4
+      ],
+      "seconds": 0.2926558750041295
+    },
+    {
+      "id": 15,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "seconds": 0.18976095899415668
+    },
+    {
+      "id": 15,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        9,
+        7,
+        7
+      ],
+      "seconds": 0.2802671670069685
+    },
+    {
+      "id": 16,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        4,
+        5,
+        8,
+        14
+      ],
+      "seconds": 0.11774108400277328
+    },
+    {
+      "id": 16,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        4,
+        5,
+        4
+      ],
+      "seconds": 0.30543037501047365
+    },
+    {
+      "id": 17,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        9,
+        8,
+        8
+      ],
+      "seconds": 0.0889321669965284
+    },
+    {
+      "id": 17,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        9,
+        8,
+        8
+      ],
+      "seconds": 0.3314829169976292
+    },
+    {
+      "id": 18,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        1,
+        8,
+        7
+      ],
+      "seconds": 0.10259383299853653
+    },
+    {
+      "id": 18,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        9,
+        1,
+        1
+      ],
+      "seconds": 0.32457329200406093
+    },
+    {
+      "id": 19,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        7,
+        8,
+        8
+      ],
+      "seconds": 0.1303481670038309
+    },
+    {
+      "id": 19,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        8,
+        9,
+        8
+      ],
+      "seconds": 0.34286979099852033
+    },
+    {
+      "id": 20,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        6,
+        6,
+        2,
+        6
+      ],
+      "seconds": 0.09524441699613817
+    },
+    {
+      "id": 20,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        7,
+        6,
+        6,
+        5
+      ],
+      "seconds": 0.4073117910011206
+    },
+    {
+      "id": 21,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        8,
+        2,
+        8,
+        2,
+        8
+      ],
+      "seconds": 0.23916208298760466
+    },
+    {
+      "id": 21,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        10,
+        2,
+        8,
+        2,
+        2
+      ],
+      "seconds": 0.42584850000275765
+    },
+    {
+      "id": 22,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        2,
+        7,
+        7,
+        4,
+        8
+      ],
+      "seconds": 0.1722283750132192
+    },
+    {
+      "id": 22,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        10,
+        10,
+        6,
+        2,
+        8
+      ],
+      "seconds": 0.46020162499917205
+    },
+    {
+      "id": 23,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        9,
+        7,
+        7,
+        7,
+        8
+      ],
+      "seconds": 0.26491041599365417
+    },
+    {
+      "id": 23,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        7,
+        7,
+        9,
+        9,
+        7
+      ],
+      "seconds": 0.4092570409993641
+    },
+    {
+      "id": 24,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        14,
+        15,
+        15,
+        13,
+        14
+      ],
+      "seconds": 0.13237616699188948
+    },
+    {
+      "id": 24,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        14,
+        14,
+        15,
+        15,
+        15
+      ],
+      "seconds": 0.3429060839989688
+    },
+    {
+      "id": 25,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        7,
+        2,
+        1,
+        9,
+        8
+      ],
+      "seconds": 0.20984745801251847
+    },
+    {
+      "id": 25,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        8,
+        9,
+        13,
+        13,
+        8
+      ],
+      "seconds": 0.3850827909918735
+    }
+  ],
+  "notes": "Page-level recall proxy. Vector cosine and rerank scores use independent scales; calibrate separate thresholds for fair rejection comparisons.",
+  "threshold": 0.35
+}

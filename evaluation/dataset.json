@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "question": "What architecture does the paper propose?",
+    "expected_answer": "Transformer",
+    "expected_pages": [
+      1,
+      2,
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "question": "What BLEU does the big model achieve on English to German?",
+    "expected_answer": "28.4 BLEU",
+    "expected_pages": [
+      1,
+      8,
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "question": "What English to French BLEU score is reported?",
+    "expected_answer": "41.8 BLEU",
+    "expected_pages": [
+      1,
+      8,
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 4,
+    "question": "How many GPUs trained the models?",
+    "expected_answer": "eight NVIDIA P100 GPUs",
+    "expected_pages": [
+      7,
+      8
+    ],
+    "answerable": true
+  },
+  {
+    "id": 5,
+    "question": "How many encoder layers are used?",
+    "expected_answer": "N = 6",
+    "expected_pages": [
+      3
+    ],
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "question": "What is the model dimension of the base model?",
+    "expected_answer": "512",
+    "expected_pages": [
+      3,
+      5,
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 7,
+    "question": "How many attention heads does the base model use?",
+    "expected_answer": "8",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 8,
+    "question": "What is the dimension of each attention head?",
+    "expected_answer": "64",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 9,
+    "question": "Why scale dot products by the square root of the key dimension?",
+    "expected_answer": "Counteract large dot products and small softmax gradients",
+    "expected_pages": [
+      4
+    ],
+    "answerable": true
+  },
+  {
+    "id": 10,
+    "question": "How does the decoder prevent attending to future positions?",
+    "expected_answer": "Masking subsequent positions",
+    "expected_pages": [
+      3,
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 11,
+    "question": "What activation is used in the feed-forward network?",
+    "expected_answer": "ReLU",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 12,
+    "question": "What is the feed-forward inner dimension?",
+    "expected_answer": "2048",
+    "expected_pages": [
+      5
+    ],
+    "answerable": true
+  },
+  {
+    "id": 13,
+    "question": "How are positional encodings computed?",
+    "expected_answer": "Sine and cosine functions of different frequencies",
+    "expected_pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "id": 14,
+    "question": "Which optimizer is used?",
+    "expected_answer": "Adam",
+    "expected_pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "id": 15,
+    "question": "How many warmup steps are used?",
+    "expected_answer": "4000",
+    "expected_pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "id": 16,
+    "question": "What label smoothing value is used?",
+    "expected_answer": "0.1",
+    "expected_pages": [
+      8
+    ],
+    "answerable": true
+  },
+  {
+    "id": 17,
+    "question": "What dropout rate is used for the base model?",
+    "expected_answer": "0.1",
+    "expected_pages": [
+      8,
+      9
+    ],
+    "answerable": true
+  },
+  {
+    "id": 18,
+    "question": "How large is the English German training dataset?",
+    "expected_answer": "4.5 million sentence pairs",
+    "expected_pages": [
+      7
+    ],
+    "answerable": true
+  },
+  {
+    "id": 19,
+    "question": "How long is the big model trained?",
+    "expected_answer": "3.5 days",
+    "expected_pages": [
+      1,
+      8
+    ],
+    "answerable": true
+  },
+  {
+    "id": 20,
+    "question": "What is the self-attention per-layer complexity?",
+    "expected_answer": "O(n² d)",
+    "expected_pages": [
+      6
+    ],
+    "answerable": true
+  },
+  {
+    "id": 21,
+    "question": "What accuracy does Transformer obtain on ImageNet?",
+    "expected_answer": "",
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "id": 22,
+    "question": "What reinforcement learning reward model is used for RLHF?",
+    "expected_answer": "",
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "id": 23,
+    "question": "What is the GPT-4 training parameter count?",
+    "expected_answer": "",
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "id": 24,
+    "question": "What dose of aspirin does this paper recommend?",
+    "expected_answer": "",
+    "expected_pages": [],
+    "answerable": false
+  },
+  {
+    "id": 25,
+    "question": "What was the stock price of NVIDIA on November 16 2026?",
+    "expected_answer": "",
+    "expected_pages": [],
+    "answerable": false
+  }
+]

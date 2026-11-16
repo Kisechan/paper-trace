@@ -1,0 +1,998 @@
+{
+  "summary": {
+    "vector": {
+      "page_hit_at_5": 1.0,
+      "rejection_accuracy": 0.0,
+      "answerable_acceptance": 1.0,
+      "mean_seconds": 0.19754008987918495
+    },
+    "hybrid": {
+      "page_hit_at_5": 1.0,
+      "rejection_accuracy": 1.0,
+      "answerable_acceptance": 0.9,
+      "mean_seconds": 0.39045684492215516
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        2,
+        1,
+        14,
+        15,
+        15
+      ],
+      "seconds": 0.20586033299332485,
+      "judge": {
+        "correct": false,
+        "grounded": false,
+        "reason": "The answer does not correctly identify the architecture proposed in the paper, which is 'Transformer'. The evidence provided does not support the answer given."
+      },
+      "generation_refused": true
+    },
+    {
+      "id": 1,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": true,
+      "hit": true,
+      "pages": [
+        12,
+        2,
+        1,
+        14,
+        15
+      ],
+      "seconds": 0.5221138329943642
+    },
+    {
+      "id": 2,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        1,
+        8,
+        8
+      ],
+      "seconds": 0.12886787499883212,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the BLEU score of 28.4 for the big transformer model on the WMT 2014 English-to-German translation task, which matches the reference. The evidence provided supports this claim, showing that the model achieved a BLEU score of 28.4 and outperformed previous models."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 2,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        1,
+        8,
+        10
+      ],
+      "seconds": 0.36448020800889935,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the BLEU score of 28.4 for the big transformer model on the WMT 2014 English-to-German translation task, which is supported by multiple pieces of evidence from the provided text."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 3,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        1,
+        8,
+        8
+      ],
+      "seconds": 0.1525733750022482,
+      "judge": {
+        "correct": false,
+        "grounded": true,
+        "reason": "The answer states the BLEU score is 41.8, which is grounded in the evidence. However, the reference states 41.8 BLEU, making the answer incorrect as it does not match the reference exactly."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 3,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        1,
+        8,
+        8,
+        8
+      ],
+      "seconds": 0.34640737500740215,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the reported English to French BLEU score as 41.8, which is supported by the evidence provided. The evidence explicitly mentions 'our model establishes a new single-model state-of-the-art BLEU score of 41.8'."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 4,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        8,
+        1,
+        7
+      ],
+      "seconds": 0.18907274999946821,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The models were trained on 8 NVIDIA P100 GPUs.' is correct and directly supported by the evidence, which mentions '8 NVIDIA P100 GPUs' and 'eight GPUs' in multiple places."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 4,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        8,
+        2,
+        1
+      ],
+      "seconds": 0.5060970409977017,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The models were trained on 8 NVIDIA P100 GPUs.' is correct and grounded in the provided evidence. Multiple references explicitly state that the models were trained on 8 NVIDIA P100 GPUs, confirming both the accuracy and grounding of the answer."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 5,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        3,
+        5,
+        5,
+        6
+      ],
+      "seconds": 0.15797754199593328,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The encoder uses 6 identical layers.' is correct and grounded in the provided evidence, which explicitly states 'The encoder is composed of a stack of N = 6 identical layers.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 5,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        3,
+        5,
+        13,
+        5
+      ],
+      "seconds": 0.36109379200206604,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The encoder uses 6 identical layers.' is correct and directly supported by the evidence, which states 'The encoder is composed of a stack of N = 6 identical layers.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 6,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        8,
+        3,
+        5
+      ],
+      "seconds": 0.15320470799633767,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The model dimension of the base model is 512.' matches the reference '512' and is supported by the evidence provided, which explicitly states 'all sub-layers in the model, as well as the embedding layers, produce outputs of dimension dmodel = 512.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 6,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        7,
+        9,
+        3
+      ],
+      "seconds": 0.5434381249942817,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The model dimension of the base model is 512.' matches the reference '512' and is supported by the evidence provided, specifically the line 'all sub-layers in the model, as well as the embedding layers, produce outputs of dimension dmodel = 512.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 7,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        5,
+        5,
+        4
+      ],
+      "seconds": 0.16691120799805503,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The base model uses 8 attention heads.' matches the reference '8' and is supported by the provided evidence, which explicitly states 'we employ h = 8 parallel attention layers, or heads.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 7,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        9,
+        14,
+        4
+      ],
+      "seconds": 0.35741929200594313,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The base model uses 8 attention heads.' matches the reference '8' and is supported by the evidence provided, specifically the statement 'In this work we employ h = 8 parallel attention layers, or heads.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 8,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        9,
+        1,
+        5
+      ],
+      "seconds": 0.20639220799785107,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the dimension of each attention head as 64, which is supported by the evidence provided. The evidence explicitly mentions 'dk = dv = dmodel/h = 64', confirming the dimension of each attention head."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 8,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        9,
+        14,
+        15,
+        4
+      ],
+      "seconds": 0.41099704201042186,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the dimension of each attention head as 64, which is directly supported by the evidence provided. The evidence explicitly mentions 'dk = dv = dmodel/h = 64', confirming the dimension of each attention head."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 9,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "seconds": 0.23805241700029,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately explains the purpose of scaling dot products by the square root of the key dimension, which is to counteract large dot products and small softmax gradients. The evidence provided supports this explanation by detailing how large values of dk lead to large dot products, pushing the softmax function into regions with small gradients, and how scaling helps mitigate this issue."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 9,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        4,
+        4,
+        4,
+        4,
+        9
+      ],
+      "seconds": 0.3505554160074098,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately explains the purpose of scaling dot products by the square root of the key dimension, which is to counteract large dot products and small softmax gradients. The evidence provided supports this explanation by detailing the theoretical and practical reasons for the scaling, including the impact on gradient stability and model performance."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 10,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        5,
+        3,
+        6,
+        5
+      ],
+      "seconds": 0.2140822919900529,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately describes how the decoder prevents attending to future positions by using masking in the self-attention sub-layer, which is supported by the provided evidence. The evidence explicitly mentions the use of masking to prevent positions from attending to subsequent positions and the offsetting of output embeddings to ensure predictions depend only on known outputs at previous positions."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 10,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        3,
+        5,
+        3,
+        5,
+        5
+      ],
+      "seconds": 0.37980362499365583,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately describes how the decoder prevents attending to future positions by using masking in the self-attention layers, which is supported by the provided evidence. The evidence explicitly mentions the use of masking to prevent positions from attending to subsequent positions, ensuring the auto-regressive property is preserved."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 11,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        4,
+        3,
+        15
+      ],
+      "seconds": 0.17222854201099835,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'ReLU activation is used in the feed-forward network.' is correct and directly supported by the evidence provided, which explicitly mentions the use of ReLU activation in the feed-forward network."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 11,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        4,
+        3,
+        5,
+        2
+      ],
+      "seconds": 0.3758766669925535,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'ReLU activation is used in the feed-forward network.' is correct and directly supported by the evidence, which explicitly mentions 'a ReLU activation in between' the linear transformations in the feed-forward network."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 12,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        5,
+        5,
+        3,
+        6,
+        5
+      ],
+      "seconds": 0.21517308299371507,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states that the feed-forward inner dimension (dff) is 2048, which is supported by the evidence provided. The evidence explicitly mentions 'the inner-layer has dimensionality dff = 2048.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 12,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": true,
+      "hit": true,
+      "pages": [
+        3,
+        5,
+        4,
+        5,
+        3
+      ],
+      "seconds": 0.3799417080008425
+    },
+    {
+      "id": 13,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        6,
+        6,
+        6,
+        3
+      ],
+      "seconds": 0.11177354199753609,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately describes how positional encodings are computed using sine and cosine functions of different frequencies, as referenced in the evidence. The explanation includes details about the geometric progression of wavelengths and the linear relationship between encodings of different positions, which are supported by the provided evidence."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 13,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        6,
+        3,
+        8,
+        6
+      ],
+      "seconds": 0.3642421669937903,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately describes how positional encodings are computed using sine and cosine functions of different frequencies, with wavelengths forming a geometric progression. This matches the reference and is supported by the provided evidence."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 14,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        4,
+        4,
+        15
+      ],
+      "seconds": 0.216063915999257,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The Adam optimizer is used.' matches the reference 'Adam' and is supported by the evidence provided, which explicitly mentions the use of the Adam optimizer."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 14,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        4,
+        11,
+        4
+      ],
+      "seconds": 0.35344350000377744,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer 'The Adam optimizer is used.' matches the reference 'Adam' and is supported by the provided evidence, which explicitly mentions the use of the Adam optimizer."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 15,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "seconds": 0.16017008299240842,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer '4000 warmup steps are used.' matches the reference '4000' and is supported by the evidence which explicitly states 'warmup_steps = 4000'."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 15,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        7,
+        9,
+        7,
+        7
+      ],
+      "seconds": 0.383305166993523,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer '4000 warmup steps are used.' is correct and directly supported by the evidence, which explicitly states 'warmup_steps = 4000'."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 16,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        4,
+        5,
+        14,
+        15
+      ],
+      "seconds": 0.2076733330031857,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the label smoothing value as 0.1, which is directly supported by the evidence provided in the first excerpt. The evidence explicitly mentions 'label smoothing of value εls = 0.1', confirming both the correctness and grounding of the answer."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 16,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        4,
+        5,
+        4
+      ],
+      "seconds": 0.40321008300816175,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the label smoothing value as 0.1, which is directly supported by the evidence provided. The evidence explicitly mentions 'label smoothing of value εls = 0.1', confirming both the correctness and grounding of the answer."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 17,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        9,
+        8,
+        8
+      ],
+      "seconds": 0.16531275000306778,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the dropout rate used for the base model as 0.1, which is directly supported by the evidence provided in the reference. The evidence explicitly mentions 'For the base model, we use a rate of Pdrop = 0.1.'"
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 17,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        8,
+        8,
+        9,
+        8,
+        7
+      ],
+      "seconds": 0.3348809580056695,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the dropout rate used for the base model as 0.1, which is directly supported by the evidence provided in the reference."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 18,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        1,
+        8,
+        7
+      ],
+      "seconds": 0.9632691660081036,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately reflects the reference and evidence provided, stating the English-German training dataset consists of about 4.5 million sentence pairs, which is supported by the evidence."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 18,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        9,
+        1,
+        1
+      ],
+      "seconds": 0.35036966600455344,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately reflects the reference and is supported by the provided evidence, which states the English-German training dataset consists of about 4.5 million sentence pairs."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 19,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        7,
+        8,
+        8
+      ],
+      "seconds": 0.15356841700850055,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states that the big model was trained for 300,000 steps, which took 3.5 days on 8 NVIDIA P100 GPUs, matching the reference and evidence provided."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 19,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        7,
+        8,
+        8,
+        9,
+        8
+      ],
+      "seconds": 0.37840766600857023,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states that the big model was trained for 3.5 days, which matches the reference. The evidence provided supports this information, confirming the training duration and the hardware used (8 NVIDIA P100 GPUs)."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 20,
+      "mode": "vector",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        6,
+        6,
+        2,
+        6
+      ],
+      "seconds": 0.15751970899873413,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer correctly states the self-attention per-layer complexity as O(n² · d), which matches the reference. The evidence provided supports this claim, showing the complexity in Table 1 and discussing the computational aspects of self-attention layers."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 20,
+      "mode": "hybrid",
+      "answerable": true,
+      "refused": false,
+      "hit": true,
+      "pages": [
+        6,
+        7,
+        6,
+        6,
+        5
+      ],
+      "seconds": 0.46853612500126474,
+      "judge": {
+        "correct": true,
+        "grounded": true,
+        "reason": "The answer accurately reflects the per-layer complexity of a standard self-attention mechanism as O(n²·d), which matches the reference. It also correctly mentions the restricted variant with complexity O(r·n·d). The evidence provided supports these claims, particularly from Table 1 in the source material."
+      },
+      "generation_refused": false
+    },
+    {
+      "id": 21,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        8,
+        2,
+        8,
+        2,
+        8
+      ],
+      "seconds": 0.15786574999219738
+    },
+    {
+      "id": 21,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        10,
+        2,
+        8,
+        2,
+        2
+      ],
+      "seconds": 0.3990661249990808
+    },
+    {
+      "id": 22,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        2,
+        7,
+        7,
+        4,
+        8
+      ],
+      "seconds": 0.09587633299815934
+    },
+    {
+      "id": 22,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        10,
+        10,
+        6,
+        2,
+        8
+      ],
+      "seconds": 0.3755365410033846
+    },
+    {
+      "id": 23,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        9,
+        7,
+        7,
+        7,
+        8
+      ],
+      "seconds": 0.10654254100518301
+    },
+    {
+      "id": 23,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        7,
+        7,
+        9,
+        9,
+        7
+      ],
+      "seconds": 0.3080291250080336
+    },
+    {
+      "id": 24,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        14,
+        15,
+        15,
+        13,
+        14
+      ],
+      "seconds": 0.1539444160007406
+    },
+    {
+      "id": 24,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        14,
+        14,
+        15,
+        15,
+        15
+      ],
+      "seconds": 0.34009216699632816
+    },
+    {
+      "id": 25,
+      "mode": "vector",
+      "answerable": false,
+      "refused": false,
+      "hit": false,
+      "pages": [
+        7,
+        2,
+        1,
+        9,
+        8
+      ],
+      "seconds": 0.0885259579954436
+    },
+    {
+      "id": 25,
+      "mode": "hybrid",
+      "answerable": false,
+      "refused": true,
+      "hit": false,
+      "pages": [
+        8,
+        9,
+        13,
+        13,
+        1
+      ],
+      "seconds": 0.4040777090121992
+    }
+  ],
+  "notes": "Page-level recall proxy. Vector cosine and rerank scores use independent scales; calibrate separate thresholds for fair rejection comparisons.",
+  "threshold": 0.35
+}
