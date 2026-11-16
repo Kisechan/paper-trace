@@ -6,7 +6,7 @@
 
 ## 启动
 
-安装并启动 Docker Desktop 后，在仓库根目录执行：
+启动 Docker Desktop（macOS 可执行 `docker desktop start`），等待 Docker 就绪后，在仓库根目录执行。首次运行：
 
 ```sh
 cp .env.example .env
@@ -16,14 +16,40 @@ make up
 make ingest
 ```
 
-打开 http://localhost:3000 。API 文档：http://localhost:8000/docs 。本次工作区已单独配置忽略的 `.env`；密钥仅由后端读取。
+打开 http://localhost:3000 。API 文档：http://localhost:8000/docs 。密钥保存在 Git 忽略的 `.env`，仅由后端读取。
+
+后续启动（复用已有 `.env`、PDF 与数据库索引）：
+
+```sh
+docker desktop start
+make up
+```
+
+查看服务状态与日志：
+
+```sh
+docker compose ps
+docker compose logs -f
+```
 
 ```sh
 make eval                         # 25 条真实 API 检索对比
 # 可选：同时生成回答并运行 LLM 裁判，产生额外调用费用
 docker compose exec api python evaluate.py --document-id 1 --dataset /evaluation/dataset.json --output /evaluation/results-judge.json --judge
-make down                         # 保留数据库卷
 ```
+
+## 停止
+
+在仓库根目录执行：
+
+```sh
+make down                         # 等价于 docker compose down，停止并移除项目容器
+docker desktop stop              # 关闭 Docker Desktop 后台及其引擎
+```
+
+数据库卷、原始 PDF、`.env` 和构建镜像保留，下次运行 `docker desktop start` 与 `make up` 即可继续使用。Docker Desktop 停止时会一并关闭其余 Docker 工作负载；macOS 也可通过菜单栏 Docker 图标选择 Quit Docker Desktop。
+
+本地开发模式：在运行 FastAPI 和 Next.js 的两个终端分别按 `Ctrl+C`，再在仓库根目录执行 `make down` 和 `docker desktop stop`。
 
 ## 本地开发
 
